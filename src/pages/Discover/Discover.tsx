@@ -28,7 +28,7 @@ const Discover = () => {
 
   useEffect(() => {
     fetchData(setData, date);
-  }, []);
+  }, [date]);
   return (
     <section id="data-section">
       <h2>
