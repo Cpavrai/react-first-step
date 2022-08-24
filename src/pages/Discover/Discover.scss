@@ -1,0 +1,19 @@
+#data-section {
+  background-color: rgba(0, 0, 0, 0.28);
+  width: 90vw;
+  height: 90vh;
+  position: relative;
+  top: 5vh;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  img {
+    max-height: 30em;
+  }
+}

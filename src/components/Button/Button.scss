@@ -1,0 +1,11 @@
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-family: sans-serif;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+}
